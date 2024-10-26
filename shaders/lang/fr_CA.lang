@@ -1,0 +1,380 @@
+#Profiles
+############################
+profile.no_effects=Aucun
+profile.shadowless_low=Sans ombre, bas
+profile.shadowless_medium=Sans ombre, moyen
+profile.shadowless_high=Sans ombre, élevé
+profile.low=Bas
+profile.medium=Moyen
+profile.high=Elevé
+profile.extreme=Magnifique
+profile.extremeplus=De toute beauté
+profile.comment=§7Définit des profils pré-définits de réglages.. §7Expérimentez par vous-même les options pour de meilleures performances..
+
+#About
+#############################
+option.ACERCADE=MakeUp
+option.ACERCADE.comment=Thanks for using this shader! :).. Set Optifine native quality controls on normal or default values for better quality.. §7Traduction française écrite par Clément V..
+value.ACERCADE.0=v.9.0a
+
+#Options
+#############################
+option.SHADOW_CASTING=Ombres
+option.SHADOW_CASTING.comment=§7Activer les ombres..
+
+option.SHADOW_DISTANCE_SLIDER=Distance d'affichage
+value.SHADOW_DISTANCE_SLIDER.0=Courte
+value.SHADOW_DISTANCE_SLIDER.1=Moyenne
+value.SHADOW_DISTANCE_SLIDER.2=Lointaine
+option.SHADOW_DISTANCE_SLIDER.comment=§7Définit la distance d'affichage des ombres..
+
+option.SHADOW_QTY_SLIDER=Qualité
+value.SHADOW_QTY_SLIDER.0=Aucune
+value.SHADOW_QTY_SLIDER.1=Faible
+value.SHADOW_QTY_SLIDER.2=Moyenne
+value.SHADOW_QTY_SLIDER.3=Élevée
+option.SHADOW_QTY_SLIDER.comment=§7Définit la résolution de l'ombre.. §7Plus celle-ci est élevée, plus elle demandera de performances..
+
+option.REFLECTION_SLIDER=Réflection
+value.REFLECTION_SLIDER.0=Non
+value.REFLECTION_SLIDER.1=image inversée
+value.REFLECTION_SLIDER.2=Projetée
+option.REFLECTION_SLIDER.comment=§7Définit la manière d'afficher les réflections sur l'eau.. §lImage inversée§r§7= affiche l'image inversée au dessus de l'eau pour de meilleures performances.. §lProjetée§r§7= calcule de façon réaliste le trajet de la lumière sur l'eau..
+
+option.SHADOW_TYPE=Type
+value.SHADOW_TYPE.0=Simple
+value.SHADOW_TYPE.1=Filtrée
+option.SHADOW_TYPE.comment=§7Définit comment l'ombre sera filtrée.. §lSimple§r§7= l'ombre est plus performante mais paraîtra pixelisée.. §lFiltrée§r§7= l'ombre paraîtra adoucie..
+
+option.SHADOW_BLUR=Contours adoucis
+option.SHADOW_BLUR.comment=§7Définit le niveau de flou du contour des ombres..
+
+option.COLORED_SHADOW=Ombres colorées
+option.COLORED_SHADOW.comment=§7Colore les ombres portées par des cubes transparents et colorés comme les vitres..
+
+option.VOL_LIGHT=Rayon solaire
+value.VOL_LIGHT.0=Aucun
+value.VOL_LIGHT.1=Profondeur
+value.VOL_LIGHT.2=Volumétrique
+option.VOL_LIGHT.comment=§7Affiche des rayons de soleil à travers les cubes.. §lProfondeur§r§7= les rayons s'affichent uniquement lorsque vous regardez le soleil à travers des blocs.. §lVolumétrique§r§7= les rayons sont présents dans l'espace 3D, pour une atmosphère réaliste..
+
+option.DOF=Flou focale
+option.DOF.comment=§7Floute ce que vous ne regardez pas en arrière-plan..
+
+option.DOF_STRENGTH=Intensité
+option.DOF_STRENGTH.comment=§7Définit l'intensité du flou d'arrière-plan..
+
+option.DOF_SAMPLES_FACTOR=DoF samples factor
+
+option.AO=Occlusion ambiante
+value.AO.0=Non
+value.AO.1=Oui
+option.AO.comment=§7Assombrit les recoins entre les cubes..
+
+option.AOSTEPS=Qualité
+option.AOSTEPS.comment=§7Définit la qualité de l'abération chromatique.. §7Un échantillonnage plus élevé impacte les performances..
+
+option.AO_STRENGTH=Intensité
+option.AO_STRENGTH.comment=§7Définit l'intensité de l'abération chromatique..
+
+option.AA_TYPE=Adoucir l'image
+value.AA_TYPE.0=Non
+value.AA_TYPE.1=Réduire le bruit
+value.AA_TYPE.2=TAA
+value.AA_TYPE.3=TAA fort
+option.AA_TYPE.comment=§7Adoucit l'image, mais peut causer du flou et du §oghosting §r§7en contrepartie..
+
+option.MOTION_BLUR=Flou mouvement
+option.MOTION_BLUR.comment=§7Affiche le tracé des mouvement comme les caméra le font pour des mouvements en apparence plus fluide..
+
+option.MOTION_BLUR_STRENGTH=Intensité
+option.MOTION_BLUR_STRENGTH.comment=§7Définit si le flou de mouvement est plus discret ou intense..
+
+option.MOTION_BLUR_SAMPLES=Qualité
+option.MOTION_BLUR_SAMPLES.comment=§7Définit la qualité du flou de mouvement.. §7Plus il y a d'échantillonage, plus les performances sont impactées..
+
+option.VANILLA_WATER=Texture vanilla
+option.VANILLA_WATER.comment=§7Afficher ou non la texture §ovanilla §r§7de l'eau en supplément..
+
+option.WATER_TEXTURE=Texture
+value.WATER_TEXTURE.0=Non
+value.WATER_TEXTURE.1=Oui
+option.WATER_TEXTURE.comment=§7Afficher la texture de l'eau..
+
+option.WATER_COLOR_SOURCE=Couleur
+value.WATER_COLOR_SOURCE.0=Shader
+value.WATER_COLOR_SOURCE.1=Pack de ressource
+option.WATER_COLOR_SOURCE.comment=§7Définit si la couleur de l'eau est gérée par le §opack de shader §r§7ou bien le §opack de ressource..
+
+option.REFLECTION=Réflection
+value.REFLECTION.0=Non
+value.REFLECTION.1=Oui
+option.REFLECTION.comment=§7Affiche une réflection sur l'eau..
+
+option.REFRACTION=Réfraction
+value.REFRACTION.0=Non
+value.REFRACTION.1=Oui
+option.REFRACTION.comment=§7Déforme l'image de ce qui se trouve de l'autre côté de l'eau..
+
+option.SSR_TYPE=Reflection type
+value.SSR_TYPE.0=Flipped image
+value.SSR_TYPE.1=Raymarching
+
+option.SUN_REFLECTION=Réfléction solaire
+value.SUN_REFLECTION.0=Non
+value.SUN_REFLECTION.1=Oui
+option.SUN_REFLECTION.comment=§7Réfléchir le soleil sur l'eau..
+
+option.CLOUD_REFLECTION=Réflection nuages
+option.CLOUD_REFLECTION.comment=§7Réfléchir les nuages volumétriques sur l'eau..
+
+option.WAVING=Ondulation végétaux
+value.WAVING.0=Non
+value.WAVING.1=Oui
+option.WAVING.comment=§7Définit si les feuilles et herbes ondulent au vent..
+
+option.CHROMA_ABER=Abération chromatique
+value.CHROMA_ABER.0=Non
+value.CHROMA_ABER.1=Oui
+option.CHROMA_ABER.comment=§7Active un filtre chromatique qui reproduit l'effet réel d'une lentille..
+
+option.CHROMA_ABER_STRENGTH=Niveau d'abération chromatique
+option.CHROMA_ABER_STRENGTH.comment=§7Définit le niveau d'abération chromatique..
+
+option.WATER_ABSORPTION=Index d'absorption
+option.WATER_ABSORPTION.comment=§7Définit à quel point on aperçoit le fond de l'eau depuis la surface..
+
+option.WATER_TURBULENCE=Vagues
+value.WATER_TURBULENCE.7.0=Calmes
+value.WATER_TURBULENCE.1.75=Petites
+value.WATER_TURBULENCE.0.9=Moyennes
+value.WATER_TURBULENCE.0.5=Fortes
+option.WATER_TURBULENCE.comment=§7Définit la force des vagues sur l'eau..
+
+option.COLOR_SCHEME=Colorimétrie
+value.COLOR_SCHEME.0=Ethereal
+value.COLOR_SCHEME.1=New shoka
+value.COLOR_SCHEME.2=Shoka
+value.COLOR_SCHEME.3=Legacy
+value.COLOR_SCHEME.4=Captain
+value.COLOR_SCHEME.5=Psychedelic
+value.COLOR_SCHEME.6=Cocoa
+value.COLOR_SCHEME.99=Personnalisé
+option.COLOR_SCHEME.comment=§7Définit la palette de couleur utilisée pour les lumières durant les différentes phases de la journée..
+
+option.LIGHT_SUNSET_COLOR_R=§4Lumière
+option.LIGHT_SUNSET_COLOR_R.comment=§7Réglage de la couleur de la lumière du soleil au crépuscule/aube..
+option.LIGHT_SUNSET_COLOR_G=§2Lumière
+option.LIGHT_SUNSET_COLOR_G.comment=§7Réglage de la couleur de la lumière du soleil au crépuscule/aube..
+option.LIGHT_SUNSET_COLOR_B=§1Lumière
+option.LIGHT_SUNSET_COLOR_B.comment=§7Réglage de la couleur de la lumière du soleil au crépuscule/aube..
+
+option.LIGHT_DAY_COLOR_R=§4Lumière
+option.LIGHT_DAY_COLOR_R.comment=§7Réglage de la couleur de la lumière du soleil le jour..
+option.LIGHT_DAY_COLOR_G=§2Lumière
+option.LIGHT_DAY_COLOR_G.comment=§7Réglage de la couleur de la lumière du soleil le jour..
+option.LIGHT_DAY_COLOR_B=§1Lumière
+option.LIGHT_DAY_COLOR_B.comment=§7Réglage de la couleur de la lumière du soleil le jour..
+
+option.LIGHT_NIGHT_COLOR_R=§4Lumière
+option.LIGHT_NIGHT_COLOR_R.comment=§7Réglage de la couleur de la lumière de la lune..
+option.LIGHT_NIGHT_COLOR_G=§2Lumière
+option.LIGHT_NIGHT_COLOR_G.comment=§7Réglage de la couleur de la lumière de la lune..
+option.LIGHT_NIGHT_COLOR_B=§1Lumière
+option.LIGHT_NIGHT_COLOR_B.comment=§7Réglage de la couleur de la lumière de la lune..
+
+option.ZENITH_SUNSET_COLOR_R=§4Ciel
+option.ZENITH_SUNSET_COLOR_R.comment=§7Réglage de la couleur du ciel au crépuscule/aube..
+option.ZENITH_SUNSET_COLOR_G=§2Ciel
+option.ZENITH_SUNSET_COLOR_G.comment=§7Réglage de la couleur du ciel au crépuscule/aube..
+option.ZENITH_SUNSET_COLOR_B=§1Ciel
+option.ZENITH_SUNSET_COLOR_B.comment=§7Réglage de la couleur du ciel au crépuscule/aube..
+
+option.ZENITH_DAY_COLOR_R=§4Ciel
+option.ZENITH_DAY_COLOR_R.comment=§7Réglage de la couleur du ciel le jour..
+option.ZENITH_DAY_COLOR_G=§2Ciel
+option.ZENITH_DAY_COLOR_G.comment=§7Réglage de la couleur du ciel le jour..
+option.ZENITH_DAY_COLOR_B=§1Ciel
+option.ZENITH_DAY_COLOR_B.comment=§7Réglage de la couleur du ciel le jour..
+
+option.ZENITH_NIGHT_COLOR_R=§4Ciel
+option.ZENITH_NIGHT_COLOR_R.comment=§7Réglage de la couleur du ciel la nuit..
+option.ZENITH_NIGHT_COLOR_G=§2Ciel
+option.ZENITH_NIGHT_COLOR_G.comment=§7Réglage de la couleur du ciel la nuit..
+option.ZENITH_NIGHT_COLOR_B=§1Ciel
+option.ZENITH_NIGHT_COLOR_B.comment=§7Réglage de la couleur du ciel la nuit..
+
+option.HORIZON_SUNSET_COLOR_R=§4Horizon
+option.HORIZON_SUNSET_COLOR_R.comment=§7Réglage de la couleur de l'horizon au crépuscule/aube..
+option.HORIZON_SUNSET_COLOR_G=§2Horizon
+option.HORIZON_SUNSET_COLOR_G.comment=§7Réglage de la couleur de l'horizon au crépuscule/aube..
+option.HORIZON_SUNSET_COLOR_B=§1Horizon
+option.HORIZON_SUNSET_COLOR_B.comment=§7Réglage de la couleur de l'horizon au crépuscule/aube..
+
+option.HORIZON_DAY_COLOR_R=§4Horizon
+option.HORIZON_DAY_COLOR_R.comment=§7Réglage de la couleur de l'horizon le jour..
+option.HORIZON_DAY_COLOR_G=§2Horizon
+option.HORIZON_DAY_COLOR_R.comment=§7Réglage de la couleur de l'horizon le jour..
+option.HORIZON_DAY_COLOR_B=§1Horizon
+option.HORIZON_DAY_COLOR_R.comment=§7Réglage de la couleur de l'horizon le jour..
+
+option.HORIZON_NIGHT_COLOR_R=§4Horizon
+option.HORIZON_NIGHT_COLOR_R.comment=§7Réglage de la couleur de l'horizon la nuit..
+option.HORIZON_NIGHT_COLOR_G=§2Horizon
+option.HORIZON_NIGHT_COLOR_G.comment=§7Réglage de la couleur de l'horizon la nuit..
+option.HORIZON_NIGHT_COLOR_B=§1Horizon
+option.HORIZON_NIGHT_COLOR_B.comment=§7Réglage de la couleur de l'horizon la nuit..
+
+option.WATER_COLOR_R=§4Eau
+option.WATER_COLOR_R.comment=§7Réglage de la couleur de l'eau..
+option.WATER_COLOR_G=§2Eau
+option.WATER_COLOR_G.comment=§7Réglage de la couleur de l'eau..
+option.WATER_COLOR_B=§1Eau
+option.WATER_COLOR_B.comment=§7Réglage de la couleur de l'eau..
+
+option.NV_COLOR_R=§4Potion vision nocturne
+option.NV_COLOR_R.comment=§7Réglage de la couleur de la potion de vision nocturne..
+option.NV_COLOR_G=§2Potion vision nocturne
+option.NV_COLOR_G.comment=§7Réglage de la couleur de la potion de vision nocturne..
+option.NV_COLOR_B=§1Potion vision nocturne
+option.NV_COLOR_B.comment=§7Réglage de la couleur de la potion de vision nocturne..
+
+option.OMNI_TINT_CUSTOM=Teinte globale
+option.OMNI_TINT_CUSTOM.comment=§7Définit la teinte globale du jeu..
+
+option.AVOID_DARK_LEVEL=Luminosité dans les cavernes
+option.AVOID_DARK_LEVEL.comment=§7Définit la luminosité dans les grottes..
+
+option.NIGHT_BRIGHT=Luminosité nocturne
+option.NIGHT_BRIGHT.comment=§7Définit la luminosité de nuit en surface..
+
+option.V_CLOUDS=Type de nuages
+value.V_CLOUDS.0=Vanilla
+value.V_CLOUDS.1=Vol. statique
+value.V_CLOUDS.2=Vol. dynamique
+option.V_CLOUDS.comment=§7Définit le type de nuages.. §lVanilla§r§7= les nuages sont ceux du jeu par défaut.. §lVolumétriques statiques§r§7= les nuages sont volumétriques, donc plus réalistes dans l'espace.. §lVolumétriques dynamiques§r§7= les nuages sont volumétriques, et évoluent dans le temps..
+
+option.CLOUD_VOL_STYLE=Forme nuageuse
+value.CLOUD_VOL_STYLE.0=Naturelle
+value.CLOUD_VOL_STYLE.1=Cubiques
+option.CLOUD_VOL_STYLE.comment=§7Définit la forme des nuages.. §lNaturelle§r§7= les nuages sont éparses comme dans la vraie vie.. §lCubiques§r§7= les nuages seront plus anguleux pour coller au style §ovanilla..
+
+option.CLOUD_SPEED=Vitesse des nuages
+value.CLOUD_SPEED.0=Normale
+value.CLOUD_SPEED.1=Accélérée
+value.CLOUD_SPEED.2=Time lapse
+option.CLOUD_SPEED.comment=§7Définit la vitesse des nuages..
+
+option.END_CLOUDS=Nuages dans l'End
+option.END_CLOUDS.comment=§7Afficher ou non les nuages dans la dimension de l'End..
+
+option.CLOUD_STEPS_AVG=Détail de nuages
+option.CLOUD_STEPS_AVG.comment=§7Définit le niveau de détail des nuages volumétriques..
+
+option.BLOOM=Éblouissement
+option.BLOOM.comment=§7Affiche un effet d'éblouissement des lumières pour davantage de réalisme..
+
+option.COLOR_BLINDNESS=Daltonisme
+option.COLOR_BLINDNESS.comment=§7Activer cette option en cas de daltonisme..
+
+option.COLOR_BLIND_MODE=Type de daltonisme
+value.COLOR_BLIND_MODE.0=Protanopia
+value.COLOR_BLIND_MODE.1=Deuteranopia
+value.COLOR_BLIND_MODE.2=Tritanopia
+option.COLOR_BLINDNESS=Daltonisme
+option.COLOR_BLIND_MODE.comment=§7Définir quel type de daltonisme..
+
+option.DEBUG_MODE=Mode débogage
+option.DEBUG_MODE.comment=§7Activer le mode débogage..
+
+option.BLOOM_SAMPLES=Qualité de l'éblouissement
+option.BLOOM_SAMPLES.comment=§7Définit la qualité de l'éblouissement.. §7Plus l'échantillonnage est élevé, plus l'impact sur les performances sera élevé..
+
+option.BLACK_ENTITY_FIX=Réparer les entitées noires
+value.BLACK_ENTITY_FIX.0=Non
+value.BLACK_ENTITY_FIX.1=Oui
+option.BLACK_ENTITY_FIX.comment=§7§oBugfix §r§7qui consiste à réparer les entitées si celles-ci s'affichent en noir..
+
+option.FOG_ACTIVE=Brouillard
+option.FOG_ACTIVE.comment=§7Activer le brouillard..
+
+option.FOG_ADJUST=Répartition
+value.FOG_ADJUST.20.0=Aucun
+value.FOG_ADJUST.10.0=Condensé
+value.FOG_ADJUST.8.0=Moins condensé
+value.FOG_ADJUST.4.0=Intermédiaire
+value.FOG_ADJUST.2.0=Étalé
+value.FOG_ADJUST.1.0=Étendue
+option.FOG_ADJUST.comment=§7Définit la répartition du brouillard.. §7Plus il est étendu, plus il se terminera progressivement vers le joueur, de manière plus réaliste..
+
+option.NETHER_FOG_DISTANCE=Distance dans le nether
+value.NETHER_FOG_DISTANCE.0=Loin
+value.NETHER_FOG_DISTANCE.1=Vanilla
+option.NETHER_FOG_DISTANCE.comment=§7Définit la distance du brouillard dans le nether..
+
+option.BLOCKLIGHT_TEMP=Température de lumière
+value.BLOCKLIGHT_TEMP.0=Chaleureuse
+value.BLOCKLIGHT_TEMP.1=Chaude
+value.BLOCKLIGHT_TEMP.2=Intermédiaire
+value.BLOCKLIGHT_TEMP.3=Pâle
+value.BLOCKLIGHT_TEMP.4=Blanche
+option.BLOCKLIGHT_TEMP.comment=§7Définit la couleur des lumières issues de cubes lumineux, de chaleureuse à pâle..
+
+option.sunPathRotation=Angle solaire
+option.sunPathRotation.comment=§7Définit l'angle de la trajectoire du soleil..
+
+option.USE_BASIC_SH=Custom dimensions basic shader
+
+option.MATERIAL_GLOSS=Brillance
+option.MATERIAL_GLOSS.comment=§7Rendre certaines textures brillantes comme la neige..
+
+option.SIMPLE_AUTOEXP=Exposition unique
+option.SIMPLE_AUTOEXP.comment=§7L'exposition unique désactive l'adaptation lumineuse de la caméra en fonction du niveau d'obscurité, comme dans les cavernes..
+
+option.DYN_HAND_LIGHT=Éclairage à la main
+option.DYN_HAND_LIGHT.comment=§7Active l'éclairage des torches et lanternes à la main si portées, sans avoir besoin de les poser..
+
+#Screens
+screen.ADVANCED_SCREEN=Options avancées
+screen.ADVANCED_SCREEN.comment=§7Accéder aux réglages avancés des options..
+
+screen.COMPATIBILITY_SCREEN=Compatibilité
+screen.COMPATIBILITY_SCREEN.comment=§7Accéder aux options de compatibilité..
+
+screen.SHADOWS_SCREEN=Ombres
+screen.SHADOWS_SCREEN.comment=§7Accéder aux réglages des ombrages..
+
+screen.DOF_SCREEN=Flou focale
+screen.DOF_SCREEN.comment=§7Accéder aux réglages de flou focale..
+
+screen.AO_SCREEN=Occlusion ambiante
+screen.AO_SCREEN.comment=§7Accéder aux réglages d'occlusion ambiante..
+
+screen.WATER_SCREEN=Eau
+screen.WATER_SCREEN.comment=§7Accéder aux réglages de l'eau..
+
+screen.POST_SCREEN=Éblouissement, abération chromatique
+screen.POST_SCREEN.comment=§7Accéder aux réglages d'abération chromatique..
+
+screen.LIGHT_SCREEN=Lumière
+screen.LIGHT_SCREEN.comment=§7Accéder aux réglages de la lumière..
+
+screen.CLOUDS_SCREEN=Soleil et nuages
+screen.CLOUDS_SCREEN.comment=§7Accéder aux réglages du soleil et des nuages..
+
+screen.FOG_SCREEN=Brouillard
+screen.FOG_SCREEN.comment=§7Accéder aux réglages du brouillard..
+
+screen.MOTION_BLUR_SCREEN=Flou de mouvement
+screen.MOTION_BLUR_SCREEN.comment=§7Accéder aux réglages du flou de mouvement..
+
+screen.ACCESIBILITY_SCREEN=Accessibilité
+screen.ACCESIBILITY_SCREEN.comment=§7Accéder aux options d'accessibilité..
+
+screen.CUSTOM_COLORS_SCREEN=Couleur personnalisée
+screen.CUSTOM_COLORS_SCREEN.comment=§7Régler les couleurs des lumières..
+screen.CUSTOM_COLORS_DAY=Couleurs en journée
+screen.CUSTOM_COLORS_SUNSET=Couleurs à l'aube et au crépuscule
+screen.CUSTOM_COLORS_NIGHT=Couleurs de nuit
+screen.CUSTOM_COLORS_WATER=Couleur de l'eau
+screen.CUSTOM_COLORS_NV=Couleurs de potion de vision nocturne
